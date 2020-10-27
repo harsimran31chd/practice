@@ -1,0 +1,1608 @@
+[33mcommit 3905762e607309eddb0d73102258fba6ce227786[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: harsimran31chd <harsimran.31@gmail.com>
+Date:   Sat Oct 17 21:39:00 2020 +0530
+
+    first folder addition
+
+[1mdiff --git a/second/crud/blog/blog/__init__.py b/blog/__init__.py[m
+[1msimilarity index 100%[m
+[1mrename from second/crud/blog/blog/__init__.py[m
+[1mrename to blog/__init__.py[m
+[1mdiff --git a/second/crud/blog/blog/__pycache__/__init__.cpython-38.pyc b/blog/__pycache__/__init__.cpython-38.pyc[m
+[1msimilarity index 100%[m
+[1mrename from second/crud/blog/blog/__pycache__/__init__.cpython-38.pyc[m
+[1mrename to blog/__pycache__/__init__.cpython-38.pyc[m
+[1mdiff --git a/second/crud/blog/blog/__pycache__/settings.cpython-38.pyc b/blog/__pycache__/settings.cpython-38.pyc[m
+[1msimilarity index 100%[m
+[1mrename from second/crud/blog/blog/__pycache__/settings.cpython-38.pyc[m
+[1mrename to blog/__pycache__/settings.cpython-38.pyc[m
+[1mdiff --git a/second/crud/blog/blog/__pycache__/urls.cpython-38.pyc b/blog/__pycache__/urls.cpython-38.pyc[m
+[1msimilarity index 100%[m
+[1mrename from second/crud/blog/blog/__pycache__/urls.cpython-38.pyc[m
+[1mrename to blog/__pycache__/urls.cpython-38.pyc[m
+[1mdiff --git a/second/crud/blog/blog/__pycache__/wsgi.cpython-38.pyc b/blog/__pycache__/wsgi.cpython-38.pyc[m
+[1msimilarity index 100%[m
+[1mrename from second/crud/blog/blog/__pycache__/wsgi.cpython-38.pyc[m
+[1mrename to blog/__pycache__/wsgi.cpython-38.pyc[m
+[1mdiff --git a/second/crud/blog/blog/asgi.py b/blog/asgi.py[m
+[1msimilarity index 100%[m
+[1mrename from second/crud/blog/blog/asgi.py[m
+[1mrename to blog/asgi.py[m
+[1mdiff --git a/second/crud/blog/blog/settings.py b/blog/settings.py[m
+[1msimilarity index 99%[m
+[1mrename from second/crud/blog/blog/settings.py[m
+[1mrename to blog/settings.py[m
+[1mindex 0d87495..4f487ce 100644[m
+[1m--- a/second/crud/blog/blog/settings.py[m
+[1m+++ b/blog/settings.py[m
+[36m@@ -29,7 +29,7 @@[m [mALLOWED_HOSTS = [][m
+ [m
+ [m
+ # Application definition[m
+[31m-[m
+[32m+[m[32m#new apps added[m
+ INSTALLED_APPS = [[m
+     'django.contrib.admin',[m
+     'django.contrib.auth',[m
+[1mdiff --git a/second/crud/blog/blog/urls.py b/blog/urls.py[m
+[1msimilarity index 100%[m
+[1mrename from second/crud/blog/blog/urls.py[m
+[1mrename to blog/urls.py[m
+[1mdiff --git a/second/crud/blog/blog/wsgi.py b/blog/wsgi.py[m
+[1msimilarity index 100%[m
+[1mrename from second/crud/blog/blog/wsgi.py[m
+[1mrename to blog/wsgi.py[m
+[1mdiff --git a/second/crud/blog/db.sqlite3 b/db.sqlite3[m
+[1msimilarity index 100%[m
+[1mrename from second/crud/blog/db.sqlite3[m
+[1mrename to db.sqlite3[m
+[1mdiff --git a/second/main.py b/main.py[m
+[1msimilarity index 100%[m
+[1mrename from second/main.py[m
+[1mrename to main.py[m
+[1mdiff --git a/second/crud/blog/manage.py b/manage.py[m
+[1msimilarity index 100%[m
+[1mrename from second/crud/blog/manage.py[m
+[1mrename to manage.py[m
+[1mdiff --git a/second/.idea/.gitignore b/second/.idea/.gitignore[m
+[1mdeleted file mode 100644[m
+[1mindex 26d3352..0000000[m
+[1m--- a/second/.idea/.gitignore[m
+[1m+++ /dev/null[m
+[36m@@ -1,3 +0,0 @@[m
+[31m-# Default ignored files[m
+[31m-/shelf/[m
+[31m-/workspace.xml[m
+[1mdiff --git a/second/.idea/inspectionProfiles/profiles_settings.xml b/second/.idea/inspectionProfiles/profiles_settings.xml[m
+[1mdeleted file mode 100644[m
+[1mindex 105ce2d..0000000[m
+[1m--- a/second/.idea/inspectionProfiles/profiles_settings.xml[m
+[1m+++ /dev/null[m
+[36m@@ -1,6 +0,0 @@[m
+[31m-<component name="InspectionProjectProfileManager">[m
+[31m-  <settings>[m
+[31m-    <option name="USE_PROJECT_PROFILE" value="false" />[m
+[31m-    <version value="1.0" />[m
+[31m-  </settings>[m
+[31m-</component>[m
+\ No newline at end of file[m
+[1mdiff --git a/second/.idea/misc.xml b/second/.idea/misc.xml[m
+[1mdeleted file mode 100644[m
+[1mindex 0ead6c0..0000000[m
+[1m--- a/second/.idea/misc.xml[m
+[1m+++ /dev/null[m
+[36m@@ -1,7 +0,0 @@[m
+[31m-<?xml version="1.0" encoding="UTF-8"?>[m
+[31m-<project version="4">[m
+[31m-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.8 (second)" project-jdk-type="Python SDK" />[m
+[31m-  <component name="PyCharmProfessionalAdvertiser">[m
+[31m-    <option name="shown" value="true" />[m
+[31m-  </component>[m
+[31m-</project>[m
+\ No newline at end of file[m
+[1mdiff --git a/second/.idea/modules.xml b/second/.idea/modules.xml[m
+[1mdeleted file mode 100644[m
+[1mindex 99eaa19..0000000[m
+[1m--- a/second/.idea/modules.xml[m
+[1m+++ /dev/null[m
+[36m@@ -1,8 +0,0 @@[m
+[31m-<?xml version="1.0" encoding="UTF-8"?>[m
+[31m-<project version="4">[m
+[31m-  <component name="ProjectModuleManager">[m
+[31m-    <modules>[m
+[31m-      <module fileurl="file://$PROJECT_DIR$/.idea/second.iml" filepath="$PROJECT_DIR$/.idea/second.iml" />[m
+[31m-    </modules>[m
+[31m-  </component>[m
+[31m-</project>[m
+\ No newline at end of file[m
+[1mdiff --git a/second/.idea/second.iml b/second/.idea/second.iml[m
+[1mdeleted file mode 100644[m
+[1mindex 74d515a..0000000[m
+[1m--- a/second/.idea/second.iml[m
+[1m+++ /dev/null[m
+[36m@@ -1,10 +0,0 @@[m
+[31m-<?xml version="1.0" encoding="UTF-8"?>[m
+[31m-<module type="PYTHON_MODULE" version="4">[m
+[31m-  <component name="NewModuleRootManager">[m
+[31m-    <content url="file://$MODULE_DIR$">[m
+[31m-      <excludeFolder url="file://$MODULE_DIR$/venv" />[m
+[31m-    </content>[m
+[31m-    <orderEntry type="inheritedJdk" />[m
+[31m-    <orderEntry type="sourceFolder" forTests="false" />[m
+[31m-  </component>[m
+[31m-</module>[m
+\ No newline at end of file[m
+[1mdiff --git a/second/crud/blog/env/bin/Activate.ps1 b/second/crud/blog/env/bin/Activate.ps1[m
+[1mdeleted file mode 100644[m
+[1mindex 900f50e..0000000[m
+[1m--- a/second/crud/blog/env/bin/Activate.ps1[m
+[1m+++ /dev/null[m
+[36m@@ -1,230 +0,0 @@[m
+[31m-<#[m
+[31m-.Synopsis[m
+[31m-Activate a Python virtual environment for the current Powershell session.[m
+[31m-[m
+[31m-.Description[m
+[31m-Pushes the python executable for a virtual environment to the front of the[m
+[31m-$Env:PATH environment variable and sets the prompt to signify that you are[m
+[31m-in a Python virtual environment. Makes use of the command line switches as[m
+[31m-well as the `pyvenv.cfg` file values present in the virtual environment.[m
+[31m-[m
+[31m-.Parameter VenvDir[m
+[31m-Path to the directory that contains the virtual environment to activate. The[m
+[31m-default value for this is the parent of the directory that the Activate.ps1[m
+[31m-script is located within.[m
+[31m-[m
+[31m-.Parameter Prompt[m
+[31m-The prompt prefix to display when this virtual environment is activated. By[m
+[31m-default, this prompt is the name of the virtual environment folder (VenvDir)[m
+[31m-surrounded by parentheses and followed by a single space (ie. '(.venv) ').[m
+[31m-[m
+[31m-.Example[m
+[31m-Activate.ps1[m
+[31m-Activates the Python virtual environment that contains the Activate.ps1 script.[m
+[31m-[m
+[31m-.Example[m
+[31m-Activate.ps1 -Verbose[m
+[31m-Activates the Python virtual environment that contains the Activate.ps1 script,[m
+[31m-and shows extra information about the activation as it executes.[m
+[31m-[m
+[31m-.Example[m
+[31m-Activate.ps1 -VenvDir C:\Users\MyUser\Common\.venv[m
+[31m-Activates the Python virtual environment located in the specified location.[m
+[31m-[m
+[31m-.Example[m
+[31m-Activate.ps1 -Prompt "MyPython"[m
+[31m-Activates the Python virtual environment that contains the Activate.ps1 script,[m
+[31m-and prefixes the current prompt with the specified string (surrounded in[m
+[31m-parentheses) while the virtual environment is active.[m
+[31m-[m
+[31m-[m
+[31m-#>[m
+[31m-Param([m
+[31m-    [Parameter(Mandatory = $false)][m
+[31m-    [String][m
+[31m-    $VenvDir,[m
+[31m-    [Parameter(Mandatory = $false)][m
+[31m-    [String][m
+[31m-    $Prompt[m
+[31m-)[m
+[31m-[m
+[31m-<# Function declarations --------------------------------------------------- #>[m
+[31m-[m
+[31m-<#[m
+[31m-.Synopsis[m
+[31m-Remove all shell session elements added by the Activate script, including the[m
+[31m-addition of the virtual environment's Python executable from the beginning of[m
+[31m-the PATH variable.[m
+[31m-[m
+[31m-.Parameter NonDestructive[m
+[31m-If present, do not remove this function from the global namespace for the[m
+[31m-session.[m
+[31m-[m
+[31m-#>[m
+[31m-function global:deactivate ([switch]$NonDestructive) {[m
+[31m-    # Revert to original values[m
+[31m-[m
+[31m-    # The prior prompt:[m
+[31m-    if (Test-Path -Path Function:_OLD_VIRTUAL_PROMPT) {[m
+[31m-        Copy-Item -Path Function:_OLD_VIRTUAL_PROMPT -Destination Function:prompt[m
+[31m-        Remove-Item -Path Function:_OLD_VIRTUAL_PROMPT[m
+[31m-    }[m
+[31m-[m
+[31m-    # The prior PYTHONHOME:[m
+[31m-    if (Test-Path -Path Env:_OLD_VIRTUAL_PYTHONHOME) {[m
+[31m-        Copy-Item -Path Env:_OLD_VIRTUAL_PYTHONHOME -Destination Env:PYTHONHOME[m
+[31m-        Remove-Item -Path Env:_OLD_VIRTUAL_PYTHONHOME[m
+[31m-    }[m
+[31m-[m
+[31m-    # The prior PATH:[m
+[31m-    if (Test-Path -Path Env:_OLD_VIRTUAL_PATH) {[m
+[31m-        Copy-Item -Path Env:_OLD_VIRTUAL_PATH -Destination Env:PATH[m
+[31m-        Remove-Item -Path Env:_OLD_VIRTUAL_PATH[m
+[31m-    }[m
+[31m-[m
+[31m-    # Just remove the VIRTUAL_ENV altogether:[m
+[31m-    if (Test-Path -Path Env:VIRTUAL_ENV) {[m
+[31m-        Remove-Item -Path env:VIRTUAL_ENV[m
+[31m-    }[m
+[31m-[m
+[31m-    # Just remove the _PYTHON_VENV_PROMPT_PREFIX altogether:[m
+[31m-    if (Get-Variable -Name "_PYTHON_VENV_PROMPT_PREFIX" -ErrorAction SilentlyContinue) {[m
+[31m-        Remove-Variable -Name _PYTHON_VENV_PROMPT_PREFIX -Scope Global -Force[m
+[31m-    }[m
+[31m-[m
+[31m-    # Leave deactivate function in the global namespace if requested:[m
+[31m-    if (-not $NonDestructive) {[m
+[31m-        Remove-Item -Path function:deactivate[m
+[31m-    }[m
+[31m-}[m
+[31m-[m
+[31m-<#[m
+[31m-.Description[m
+[31m-Get-PyVenvConfig parses the values from the pyvenv.cfg file located in the[m
+[31m-given folder, and returns them in a map.[m
+[31m-[m
+[31m-For each line in the pyvenv.cfg file, if that line can be parsed into exactly[m
+[31m-two strings separated by `=` (with any amount of whitespace surrounding the =)[m
+[31m-then it is considered a `key = value` line. The left hand string is the key,[m
+[31m-the right hand is the value.[m
+[31m-[m
+[31m-If the value starts with a `'` or a `"` then the first and last character is[m
+[31m-stripped from the value before being captured.[m
+[31m-[m
+[31m-.Parameter ConfigDir[m
+[31m-Path to the directory that contains the `pyvenv.cfg` file.[m
+[31m-#>[m
+[31m-function Get-PyVenvConfig([m
+[31m-    [String][m
+[31m-    $ConfigDir[m
+[31m-) {[m
+[31m-    Write-Verbose "Given ConfigDir=$ConfigDir, obtain values in pyvenv.cfg"[m
+[31m-[m
+[31m-    # Ensure the file exists, and issue a warning if it doesn't (but still allow the function to continue).[m
+[31m-    $pyvenvConfigPath = Join-Path -Resolve -Path $ConfigDir -ChildPath 'pyvenv.cfg' -ErrorAction Continue[m
+[31m-[m
+[31m-    # An empty map will be returned if no config file is found.[m
+[31m-    $pyvenvConfig = @{ }[m
+[31m-[m
+[31m-    if ($pyvenvConfigPath) {[m
+[31m-[m
+[31m-        Write-Verbose "File exists, parse `key = value` lines"[m
+[31m-        $pyvenvConfigContent = Get-Content -Path $pyvenvConfigPath[m
+[31m-[m
+[31m-        $pyvenvConfigContent | ForEach-Object {[m
+[31m-            $keyval = $PSItem -split "\s*=\s*", 2[m
+[31m-            if ($keyval[0] -and $keyval[1]) {[m
+[31m-                $val = $keyval[1][m
+[31m-[m
+[31m-                # Remove extraneous quotations around a string value.[m
+[31m-                if ("'""".Contains($val.Substring(0,1))) {[m
+[31m-                    $val = $val.Substring(1, $val.Length - 2)[m
+[31m-                }[m
+[31m-[m
+[31m-                $pyvenvConfig[$keyval[0]] = $val[m
+[31m-                Write-Verbose "Adding Key: '$($keyval[0])'='$val'"[m
+[31m-            }[m
+[31m-        }[m
+[31m-    }[m
+[31m-    return $pyvenvConfig[m
+[31m-}[m
+[31m-[m
+[31m-[m
+[31m-<# Begin Activate script --------------------------------------------------- #>[m
+[31m-[m
+[31m-# Determine the containing directory of this script[m
+[31m-$VenvExecPath = Split-Path -Parent $MyInvocation.MyCommand.Definition[m
+[31m-$VenvExecDir = Get-Item -Path $VenvExecPath[m
+[31m-[m
+[31m-Write-Verbose "Activation script is located in path: '$VenvExecPath'"[m
+[31m-Write-Verbose "VenvExecDir Fullname: '$($VenvExecDir.FullName)"[m
+[31m-Write-Verbose "VenvExecDir Name: '$($VenvExecDir.Name)"[m
+[31m-[m
+[31m-# Set values required in priority: CmdLine, ConfigFile, Default[m
+[31m-# First, get the location of the virtual environment, it might not be[m
+[31m-# VenvExecDir if specified on the command line.[m
+[31m-if ($VenvDir) {[m
+[31m-    Write-Verbose "VenvDir given as parameter, using '$VenvDir' to determine values"[m
+[31m-} else {[m
+[31m-    Write-Verbose "VenvDir not given as a parameter, using parent directory name as VenvDir."[m
+[31m-    $VenvDir = $VenvExecDir.Parent.FullName.TrimEnd("\\/")[m
+[31m-    Write-Verbose "VenvDir=$VenvDir"[m
+[31m-}[m
+[31m-[m
+[31m-# Next, read the `pyvenv.cfg` file to determine any required value such[m
+[31m-# as `prompt`.[m
+[31m-$pyvenvCfg = Get-PyVenvConfig -ConfigDir $VenvDir[m
+[31m-[m
+[31m-# Next, set the prompt from the command line, or the config file, or[m
+[31m-# just use the name of the virtual environment folder.[m
+[31m-if ($Prompt) {[m
+[31m-    Write-Verbose "Prompt specified as argument, using '$Prompt'"[m
+[31m-} else {[m
+[31m-    Write-Verbose "Prompt not specified as argument to script, checking pyvenv.cfg value"[m
+[31m-    if ($pyvenvCfg -and $pyvenvCfg['prompt']) {[m
+[31m-        Write-Verbose "  Setting based on value in pyvenv.cfg='$($pyvenvCfg['prompt'])'"[m
+[31m-        $Prompt = $pyvenvCfg['prompt'];[m
+[31m-    }[m
+[31m-    else {[m
+[31m-        Write-Verbose "  Setting prompt based on parent's directory's name. (Is the directory name passed to venv module when creating the virutal environment)"[m
+[31m-        Write-Verbose "  Got leaf-name of $VenvDir='$(Split-Path -Path $venvDir -Leaf)'"[m
+[31m-        $Prompt = Split-Path -Path $venvDir -Leaf[m
+[31m-    }[m
+[31m-}[m
+[31m-[m
+[31m-Write-Verbose "Prompt = '$Prompt'"[m
+[31m-Write-Verbose "VenvDir='$VenvDir'"[m
+[31m-[m
+[31m-# Deactivate any currently active virtual environment, but leave the[m
+[31m-# deactivate function in place.[m
+[31m-deactivate -nondestructive[m
+[31m-[m
+[31m-# Now set the environment variable VIRTUAL_ENV, used by many tools to determine[m
+[31m-# that there is an activated venv.[m
+[31m-$env:VIRTUAL_ENV = $VenvDir[m
+[31m-[m
+[31m-if (-not $Env:VIRTUAL_ENV_DISABLE_PROMPT) {[m
+[31m-[m
+[31m-    Write-Verbose "Setting prompt to '$Prompt'"[m
+[31m-[m
+[31m-    # Set the prompt to include the env name[m
+[31m-    # Make sure _OLD_VIRTUAL_PROMPT is global[m
+[31m-    function global:_OLD_VIRTUAL_PROMPT { "" }[m
+[31m-    Copy-Item -Path function:prompt -Destination function:_OLD_VIRTUAL_PROMPT[m
+[31m-    New-Variable -Name _PYTHON_VENV_PROMPT_PREFIX -Description "Python virtual environment prompt prefix" -Scope Global -Option ReadOnly -Visibility Public -Value $Prompt[m
+[31m-[m
+[31m-    function global:prompt {[m
+[31m-        Write-Host -NoNewline -ForegroundColor Green "($_PYTHON_VENV_PROMPT_PREFIX) "[m
+[31m-        _OLD_VIRTUAL_PROMPT[m
+[31m-    }[m
+[31m-}[m
+[31m-[m
+[31m-# Clear PYTHONHOME[m
+[31m-if (Test-Path -Path Env:PYTHONHOME) {[m
+[31m-    Copy-Item -Path Env:PYTHONHOME -Destination Env:_OLD_VIRTUAL_PYTHONHOME[m
+[31m-    Remove-Item -Path Env:PYTHONHOME[m
+[31m-}[m
+[31m-[m
+[31m-# Add the venv to the PATH[m
+[31m-Copy-Item -Path Env:PATH -Destination Env:_OLD_VIRTUAL_PATH[m
+[31m-$Env:PATH = "$VenvExecDir$([System.IO.Path]::PathSeparator)$Env:PATH"[m
+[1mdiff --git a/second/crud/blog/env/bin/__pycache__/django-admin.cpython-38.pyc b/second/crud/blog/env/bin/__pycache__/django-admin.cpython-38.pyc[m
+[1mdeleted file mode 100644[m
+[1mindex 798ca61..0000000[m
+Binary files a/second/crud/blog/env/bin/__pycache__/django-admin.cpython-38.pyc and /dev/null differ
+[1mdiff --git a/second/crud/blog/env/bin/activate b/second/crud/blog/env/bin/activate[m
+[1mdeleted file mode 100644[m
+[1mindex 54eb94c..0000000[m
+[1m--- a/second/crud/blog/env/bin/activate[m
+[1m+++ /dev/null[m
+[36m@@ -1,76 +0,0 @@[m
+[31m-# This file must be used with "source bin/activate" *from bash*[m
+[31m-# you cannot run it directly[m
+[31m-[m
+[31m-deactivate () {[m
+[31m-    # reset old environment variables[m
+[31m-    if [ -n "${_OLD_VIRTUAL_PATH:-}" ] ; then[m
+[31m-        PATH="${_OLD_VIRTUAL_PATH:-}"[m
+[31m-        export PATH[m
+[31m-        unset _OLD_VIRTUAL_PATH[m
+[31m-    fi[m
+[31m-    if [ -n "${_OLD_VIRTUAL_PYTHONHOME:-}" ] ; then[m
+[31m-        PYTHONHOME="${_OLD_VIRTUAL_PYTHONHOME:-}"[m
+[31m-        export PYTHONHOME[m
+[31m-        unset _OLD_VIRTUAL_PYTHONHOME[m
+[31m-    fi[m
+[31m-[m
+[31m-    # This should detect bash and zsh, which have a hash command that must[m
+[31m-    # be called to get it to forget past commands.  Without forgetting[m
+[31m-    # past commands the $PATH changes we made may not be respected[m
+[31m-    if [ -n "${BASH:-}" -o -n "${ZSH_VERSION:-}" ] ; then[m
+[31m-        hash -r[m
+[31m-    fi[m
+[31m-[m
+[31m-    if [ -n "${_OLD_VIRTUAL_PS1:-}" ] ; then[m
+[31m-        PS1="${_OLD_VIRTUAL_PS1:-}"[m
+[31m-        export PS1[m
+[31m-        unset _OLD_VIRTUAL_PS1[m
+[31m-    fi[m
+[31m-[m
+[31m-    unset VIRTUAL_ENV[m
+[31m-    if [ ! "${1:-}" = "nondestructive" ] ; then[m
+[31m-    # Self destruct![m
+[31m-        unset -f deactivate[m
+[31m-    fi[m
+[31m-}[m
+[31m-[m
+[31m-# unset irrelevant variables[m
+[31m-deactivate nondestructive[m
+[31m-[m
+[31m-VIRTUAL_ENV="/home/harsimran/PycharmProjects/second/crud/blog/env"[m
+[31m-export VIRTUAL_ENV[m
+[31m-[m
+[31m-_OLD_VIRTUAL_PATH="$PATH"[m
+[31m-PATH="$VIRTUAL_ENV/bin:$PATH"[m
+[31m-export PATH[m
+[31m-[m
+[31m-# unset PYTHONHOME if set[m
+[31m-# this will fail if PYTHONHOME is set to the empty string (which is bad anyway)[m
+[31m-# could use `if (set -u; : $PYTHONHOME) ;` in bash[m
+[31m-if [ -n "${PYTHONHOME:-}" ] ; then[m
+[31m-    _OLD_VIRTUAL_PYTHONHOME="${PYTHONHOME:-}"[m
+[31m-    unset PYTHONHOME[m
+[31m-fi[m
+[31m-[m
+[31m-if [ -z "${VIRTUAL_ENV_DISABLE_PROMPT:-}" ] ; then[m
+[31m-    _OLD_VIRTUAL_PS1="${PS1:-}"[m
+[31m-    if [ "x(env) " != x ] ; then[m
+[31m-	PS1="(env) ${PS1:-}"[m
+[31m-    else[m
+[31m-    if [ "`basename \"$VIRTUAL_ENV\"`" = "__" ] ; then[m
+[31m-        # special case for Aspen magic directories[m
+[31m-        # see http://www.zetadev.com/software/aspen/[m
+[31m-        PS1="[`basename \`dirname \"$VIRTUAL_ENV\"\``] $PS1"[m
+[31m-    else[m
+[31m-        PS1="(`basename \"$VIRTUAL_ENV\"`)$PS1"[m
+[31m-    fi[m
+[31m-    fi[m
+[31m-    export PS1[m
+[31m-fi[m
+[31m-[m
+[31m-# This should detect bash and zsh, which have a hash command that must[m
+[31m-# be called to get it to forget past commands.  Without forgetting[m
+[31m-# past commands the $PATH changes we made may not be respected[m
+[31m-if [ -n "${BASH:-}" -o -n "${ZSH_VERSION:-}" ] ; then[m
+[31m-    hash -r[m
+[31m-fi[m
+[1mdiff --git a/second/crud/blog/env/bin/activate.csh b/second/crud/blog/env/bin/activate.csh[m
+[1mdeleted file mode 100644[m
+[1mindex c2e6cf4..0000000[m
+[1m--- a/second/crud/blog/env/bin/activate.csh[m
+[1m+++ /dev/null[m
+[36m@@ -1,37 +0,0 @@[m
+[31m-# This file must be used with "source bin/activate.csh" *from csh*.[m
+[31m-# You cannot run it directly.[m
+[31m-# Created by Davide Di Blasi <davidedb@gmail.com>.[m
+[31m-# Ported to Python 3.3 venv by Andrew Svetlov <andrew.svetlov@gmail.com>[m
+[31m-[m
+[31m-alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PATH" && unset _OLD_VIRTUAL_PATH; rehash; test $?_OLD_VIRTUAL_PROMPT != 0 && set prompt="$_OLD_VIRTUAL_PROMPT" && unset _OLD_VIRTUAL_PROMPT; unsetenv VIRTUAL_ENV; test "\!:*" != "nondestructive" && unalias deactivate'[m
+[31m-[m
+[31m-# Unset irrelevant variables.[m
+[31m-deactivate nondestructive[m
+[31m-[m
+[31m-setenv VIRTUAL_ENV "/home/harsimran/PycharmProjects/second/crud/blog/env"[m
+[31m-[m
+[31m-set _OLD_VIRTUAL_PATH="$PATH"[m
+[31m-setenv PATH "$VIRTUAL_ENV/bin:$PATH"[m
+[31m-[m
+[31m-[m
+[31m-set _OLD_VIRTUAL_PROMPT="$prompt"[m
+[31m-[m
+[31m-if (! "$?VIRTUAL_ENV_DISABLE_PROMPT") then[m
+[31m-    if ("env" != "") then[m
+[31m-        set env_name = "env"[m
+[31m-    else[m
+[31m-        if (`basename "VIRTUAL_ENV"` == "__") then[m
+[31m-            # special case for Aspen magic directories[m
+[31m-            # see http://www.zetadev.com/software/aspen/[m
+[31m-            set env_name = `basename \`dirname "$VIRTUAL_ENV"\``[m
+[31m-        else[m
+[31m-            set env_name = `basename "$VIRTUAL_ENV"`[m
+[31m-        endif[m
+[31m-    endif[m
+[31m-    set prompt = "[$env_name] $prompt"[m
+[31m-    unset env_name[m
+[31m-endif[m
+[31m-[m
+[31m-alias pydoc python -m pydoc[m
+[31m-[m
+[31m-rehash[m
+[1mdiff --git a/second/crud/blog/env/bin/activate.fish b/second/crud/blog/env/bin/activate.fish[m
+[1mdeleted file mode 100644[m
+[1mindex 97db38d..0000000[m
+[1m--- a/second/crud/blog/env/bin/activate.fish[m
+[1m+++ /dev/null[m
+[36m@@ -1,75 +0,0 @@[m
+[31m-# This file must be used with ". bin/activate.fish" *from fish* (http://fishshell.org)[m
+[31m-# you cannot run it directly[m
+[31m-[m
+[31m-function deactivate  -d "Exit virtualenv and return to normal shell environment"[m
+[31m-    # reset old environment variables[m
+[31m-    if test -n "$_OLD_VIRTUAL_PATH"[m
+[31m-        set -gx PATH $_OLD_VIRTUAL_PATH[m
+[31m-        set -e _OLD_VIRTUAL_PATH[m
+[31m-    end[m
+[31m-    if test -n "$_OLD_VIRTUAL_PYTHONHOME"[m
+[31m-        set -gx PYTHONHOME $_OLD_VIRTUAL_PYTHONHOME[m
+[31m-        set -e _OLD_VIRTUAL_PYTHONHOME[m
+[31m-    end[m
+[31m-[m
+[31m-    if test -n "$_OLD_FISH_PROMPT_OVERRIDE"[m
+[31m-        functions -e fish_prompt[m
+[31m-        set -e _OLD_FISH_PROMPT_OVERRIDE[m
+[31m-        functions -c _old_fish_prompt fish_prompt[m
+[31m-        functions -e _old_fish_prompt[m
+[31m-    end[m
+[31m-[m
+[31m-    set -e VIRTUAL_ENV[m
+[31m-    if test "$argv[1]" != "nondestructive"[m
+[31m-        # Self destruct![m
+[31m-        functions -e deactivate[m
+[31m-    end[m
+[31m-end[m
+[31m-[m
+[31m-# unset irrelevant variables[m
+[31m-deactivate nondestructive[m
+[31m-[m
+[31m-set -gx VIRTUAL_ENV "/home/harsimran/PycharmProjects/second/crud/blog/env"[m
+[31m-[m
+[31m-set -gx _OLD_VIRTUAL_PATH $PATH[m
+[31m-set -gx PATH "$VIRTUAL_ENV/bin" $PATH[m
+[31m-[m
+[31m-# unset PYTHONHOME if set[m
+[31m-if set -q PYTHONHOME[m
+[31m-    set -gx _OLD_VIRTUAL_PYTHONHOME $PYTHONHOME[m
+[31m-    set -e PYTHONHOME[m
+[31m-end[m
+[31m-[m
+[31m-if test -z "$VIRTUAL_ENV_DISABLE_PROMPT"[m
+[31m-    # fish uses a function instead of an env var to generate the prompt.[m
+[31m-[m
+[31m-    # save the current fish_prompt function as the function _old_fish_prompt[m
+[31m-    functions -c fish_prompt _old_fish_prompt[m
+[31m-[m
+[31m-    # with the original prompt function renamed, we can override with our own.[m
+[31m-    function fish_prompt[m
+[31m-        # Save the return status of the last command[m
+[31m-        set -l old_status $status[m
+[31m-[m
+[31m-        # Prompt override?[m
+[31m-        if test -n "(env) "[m
+[31m-            printf "%s%s" "(env) " (set_color normal)[m
+[31m-        else[m
+[31m-            # ...Otherwise, prepend env[m
+[31m-            set -l _checkbase (basename "$VIRTUAL_ENV")[m
+[31m-            if test $_checkbase = "__"[m
+[31m-                # special case for Aspen magic directories[m
+[31m-                # see http://www.zetadev.com/software/aspen/[m
+[31m-                printf "%s[%s]%s " (set_color -b blue white) (basename (dirname "$VIRTUAL_ENV")) (set_color normal)[m
+[31m-            else[m
+[31m-                printf "%s(%s)%s" (set_color -b blue white) (basename "$VIRTUAL_ENV") (set_color normal)[m
+[31m-            end[m
+[31m-        end[m
+[31m-[m
+[31m-        # Restore the return status of the previous command.[m
+[31m-        echo "exit $old_status" | .[m
+[31m-        _old_fish_prompt[m
+[31m-    end[m
+[31m-[m
+[31m-    set -gx _OLD_FISH_PROMPT_OVERRIDE "$VIRTUAL_ENV"[m
+[31m-end[m
+[1mdiff --git a/second/crud/blog/env/bin/django-admin b/second/crud/blog/env/bin/django-admin[m
+[1mdeleted file mode 100755[m
+[1mindex 8e67f0e..0000000[m
+[1m--- a/second/crud/blog/env/bin/django-admin[m
+[1m+++ /dev/null[m
+[36m@@ -1,8 +0,0 @@[m
+[31m-#!/home/harsimran/PycharmProjects/second/crud/blog/env/bin/python3[m
+[31m-# -*- coding: utf-8 -*-[m
+[31m-import re[m
+[31m-import sys[m
+[31m-from django.core.management import execute_from_command_line[m
+[31m-if __name__ == '__main__':[m
+[31m-    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])[m
+[31m-    sys.exit(execute_from_command_line())[m
+[1mdiff --git a/second/crud/blog/env/bin/django-admin.py b/second/crud/blog/env/bin/django-admin.py[m
+[1mdeleted file mode 100755[m
+[1mindex 06ed5f1..0000000[m
+[1m--- a/second/crud/blog/env/bin/django-admin.py[m
+[1m+++ /dev/null[m
+[36m@@ -1,21 +0,0 @@[m
+[31m-#!/home/harsimran/PycharmProjects/second/crud/blog/env/bin/python3[m
+[31m-# When the django-admin.py deprecation ends, remove this script.[m
+[31m-import warnings[m
+[31m-[m
+[31m-from django.core import management[m
+[31m-[m
+[31m-try:[m
+[31m-    from django.utils.deprecation import RemovedInDjango40Warning[m
+[31m-except ImportError:[m
+[31m-    raise ImportError([m
+[31m-        'django-admin.py was deprecated in Django 3.1 and removed in Django '[m
+[31m-        '4.0. Please manually remove this script from your virtual environment '[m
+[31m-        'and use django-admin instead.'[m
+[31m-    )[m
+[31m-[m
+[31m-if __name__ == "__main__":[m
+[31m-    warnings.warn([m
+[31m-        'django-admin.py is deprecated in favor of django-admin.',[m
+[31m-        RemovedInDjango40Warning,[m
+[31m-    )[m
+[31m-    management.execute_from_command_line()[m
+[1mdiff --git a/second/crud/blog/env/bin/easy_install b/second/crud/blog/env/bin/easy_install[m
+[1mdeleted file mode 100755[m
+[1mindex afcb612..0000000[m
+[1m--- a/second/crud/blog/env/bin/easy_install[m
+[1m+++ /dev/null[m
+[36m@@ -1,8 +0,0 @@[m
+[31m-#!/home/harsimran/PycharmProjects/second/crud/blog/env/bin/python3[m
+[31m-# -*- coding: utf-8 -*-[m
+[31m-import re[m
+[31m-import sys[m
+[31m-from setuptools.command.easy_install import main[m
+[31m-if __name__ == '__main__':[m
+[31m-    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])[m
+[31m-    sys.exit(main())[m
+[1mdiff --git a/second/crud/blog/env/bin/easy_install-3.8 b/second/crud/blog/env/bin/easy_install-3.8[m
+[1mdeleted file mode 100755[m
+[1mindex afcb612..0000000[m
+[1m--- a/second/crud/blog/env/bin/easy_install-3.8[m
+[1m+++ /dev/null[m
+[36m@@ -1,8 +0,0 @@[m
+[31m-#!/home/harsimran/PycharmProjects/second/crud/blog/env/bin/python3[m
+[31m-# -*- coding: utf-8 -*-[m
+[31m-import re[m
+[31m-import sys[m
+[31m-from setuptools.command.easy_install import main[m
+[31m-if __name__ == '__main__':[m
+[31m-    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])[m
+[31m-    sys.exit(main())[m
+[1mdiff --git a/second/crud/blog/env/bin/pip b/second/crud/blog/env/bin/pip[m
+[1mdeleted file mode 100755[m
+[1mindex 859e764..0000000[m
+[1m--- a/second/crud/blog/env/bin/pip[m
+[1m+++ /dev/null[m
+[36m@@ -1,8 +0,0 @@[m
+[31m-#!/home/harsimran/PycharmProjects/second/crud/blog/env/bin/python3[m
+[31m-# -*- coding: utf-8 -*-[m
+[31m-import re[m
+[31m-import sys[m
+[31m-from pip._internal.cli.main import main[m
+[31m-if __name__ == '__main__':[m
+[31m-    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])[m
+[31m-    sys.exit(main())[m
+[1mdiff --git a/second/crud/blog/env/bin/pip3 b/second/crud/blog/env/bin/pip3[m
+[1mdeleted file mode 100755[m
+[1mindex 859e764..0000000[m
+[1m--- a/second/crud/blog/env/bin/pip3[m
+[1m+++ /dev/null[m
+[36m@@ -1,8 +0,0 @@[m
+[31m-#!/home/harsimran/PycharmProjects/second/crud/blog/env/bin/python3[m
+[31m-# -*- coding: utf-8 -*-[m
+[31m-import re[m
+[31m-import sys[m
+[31m-from pip._internal.cli.main import main[m
+[31m-if __name__ == '__main__':[m
+[31m-    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])[m
+[31m-    sys.exit(main())[m
+[1mdiff --git a/second/crud/blog/env/bin/pip3.8 b/second/crud/blog/env/bin/pip3.8[m
+[1mdeleted file mode 100755[m
+[1mindex 859e764..0000000[m
+[1m--- a/second/crud/blog/env/bin/pip3.8[m
+[1m+++ /dev/null[m
+[36m@@ -1,8 +0,0 @@[m
+[31m-#!/home/harsimran/PycharmProjects/second/crud/blog/env/bin/python3[m
+[31m-# -*- coding: utf-8 -*-[m
+[31m-import re[m
+[31m-import sys[m
+[31m-from pip._internal.cli.main import main[m
+[31m-if __name__ == '__main__':[m
+[31m-    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])[m
+[31m-    sys.exit(main())[m
+[1mdiff --git a/second/crud/blog/env/bin/python b/second/crud/blog/env/bin/python[m
+[1mdeleted file mode 120000[m
+[1mindex b8a0adb..0000000[m
+[1m--- a/second/crud/blog/env/bin/python[m
+[1m+++ /dev/null[m
+[36m@@ -1 +0,0 @@[m
+[31m-python3[m
+\ No newline at end of file[m
+[1mdiff --git a/second/crud/blog/env/bin/python3 b/second/crud/blog/env/bin/python3[m
+[1mdeleted file mode 120000[m
+[1mindex ff5257a..0000000[m
+[1m--- a/second/crud/blog/env/bin/python3[m
+[1m+++ /dev/null[m
+[36m@@ -1 +0,0 @@[m
+[31m-/home/harsimran/PycharmProjects/second/venv/bin/python3[m
+\ No newline at end of file[m
+[1mdiff --git a/second/crud/blog/env/bin/sqlformat b/second/crud/blog/env/bin/sqlformat[m
+[1mdeleted file mode 100755[m
+[1mindex 814c9f2..0000000[m
+[1m--- a/second/crud/blog/env/bin/sqlformat[m
+[1m+++ /dev/null[m
+[36m@@ -1,8 +0,0 @@[m
+[31m-#!/home/harsimran/PycharmProjects/second/crud/blog/env/bin/python3[m
+[31m-# -*- coding: utf-8 -*-[m
+[31m-import re[m
+[31m-import sys[m
+[31m-from sqlparse.__main__ import main[m
+[31m-if __name__ == '__main__':[m
+[31m-    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])[m
+[31m-    sys.exit(main())[m
+[1mdiff --git a/second/crud/blog/env/lib/python3.8/site-packages/Django-3.1.1.dist-info/AUTHORS b/second/crud/blog/env/lib/python3.8/site-packages/Django-3.1.1.dist-info/AUTHORS[m
+[1mdeleted file mode 100644[m
+[1mindex bcf23ac..0000000[m
+[1m--- a/second/crud/blog/env/lib/python3.8/site-packages/Django-3.1.1.dist-info/AUTHORS[m
+[1m+++ /dev/null[m
+[36m@@ -1,979 +0,0 @@[m
+[31m-Django was originally created in late 2003 at World Online, the Web division[m
+[31m-of the Lawrence Journal-World newspaper in Lawrence, Kansas.[m
+[31m-[m
+[31m-Here is an inevitably incomplete list of MUCH-APPRECIATED CONTRIBUTORS --[m
+[31m-people who have submitted patches, reported bugs, added translations, helped[m
+[31m-answer newbie questions, and generally made Django that much better:[m
+[31m-[m
+[31m-    Aaron Cannon <cannona@fireantproductions.com>[m
+[31m-    Aaron Swartz <http://www.aaronsw.com/>[m
+[31m-    Aaron T. Myers <atmyers@gmail.com>[m
+[31m-    Abeer Upadhyay <ab.esquarer@gmail.com>[m
+[31m-    Abhijeet Viswa <abhijeetviswa@gmail.com>[m
+[31m-    Abhinav Patil <https://github.com/ubadub/>[m
+[31m-    Abhishek Gautam <abhishekg1128@yahoo.com>[m
+[31m-    Adam Allred <adam.w.allred@gmail.com>[m
+[31m-    Adam Bogdał <adam@bogdal.pl>[m
+[31m-    Adam Donaghy[m
+[31m-    Adam Johnson <https://github.com/adamchainz>[m
+[31m-    Adam Malinowski <https://adammalinowski.co.uk/>[m
+[31m-    Adam Vandenberg[m
+[31m-    Adiyat Mubarak <adiyatmubarak@gmail.com>[m
+[31m-    Adnan Umer <u.adnan@outlook.com>[m
+[31m-    Adrian Holovaty <adrian@holovaty.com>[m
+[31m-    Adrien Lemaire <lemaire.adrien@gmail.com>[m
+[31m-    Afonso Fernández Nogueira <fonzzo.django@gmail.com>[m
+[31m-    AgarFu <heaven@croasanaso.sytes.net>[m
+[31m-    Ahmad Alhashemi <trans@ahmadh.com>[m
+[31m-    Ahmad Al-Ibrahim[m
+[31m-    Ahmed Eltawela <https://github.com/ahmedabt>[m
+[31m-    ajs <adi@sieker.info>[m
+[31m-    Akash Agrawal <akashrocksha@gmail.com>[m
+[31m-    Akis Kesoglou <akiskesoglou@gmail.com>[m
+[31m-    Aksel Ethem <aksel.ethem@gmail.com>[m
+[31m-    Akshesh Doshi <aksheshdoshi+django@gmail.com>[m
+[31m-    alang@bright-green.com[m
+[31m-    Alasdair Nicol <https://al.sdair.co.uk/>[m
+[31m-    Albert Wang <https://github.com/albertyw/>[m
+[31m-    Alcides Fonseca[m
+[31m-    Aldian Fazrihady <mobile@aldian.net>[m
+[31m-    Aleksandra Sendecka <asendecka@hauru.eu>[m
+[31m-    Aleksi Häkli <aleksi.hakli@iki.fi>[m
+[31m-    Alexander Dutton <dev@alexdutton.co.uk>[m
+[31m-    Alexander Myodov <alex@myodov.com>[m
+[31m-    Alexandr Tatarinov <tatarinov1997@gmail.com>[m
+[31m-    Alex Aktsipetrov <alex.akts@gmail.com>[m
+[31m-    Alex Becker <https://alexcbecker.net/>[m
+[31m-    Alex Couper <http://alexcouper.com/>[m
+[31m-    Alex Dedul[m
+[31m-    Alex Gaynor <alex.gaynor@gmail.com>[m
+[31m-    Alex Hill <alex@hill.net.au>[m
+[31m-    Alex Ogier <alex.ogier@gmail.com>[m
+[31m-    Alex Robbins <alexander.j.robbins@gmail.com>[m
+[31m-    Alexey Boriskin <alex@boriskin.me>[m
+[31m-    Alexey Tsivunin <most-208@yandex.ru>[m
+[31m-    Aljosa Mohorovic <aljosa.mohorovic@gmail.com>[m
+[31m-    Amit Chakradeo <https://amit.chakradeo.net/>[m
+[31m-    Amit Ramon <amit.ramon@gmail.com>[m
+[31m-    Amit Upadhyay <http://www.amitu.com/blog/>[m
+[31m-    A. Murat Eren <meren@pardus.org.tr>[m
+[31m-    Ana Belen Sarabia <belensarabia@gmail.com>[m
+[31m-    Ana Krivokapic <https://github.com/infraredgirl>[m
+[31m-    Andi Albrecht <albrecht.andi@gmail.com>[m
+[31m-    André Ericson <de.ericson@gmail.com>[m
+[31m-    Andrei Kulakov <andrei.avk@gmail.com>[m
+[31m-    Andreas[m
+[31m-    Andreas Mock <andreas.mock@web.de>[m
+[31m-    Andreas Pelme <andreas@pelme.se>[m
+[31m-    Andrés Torres Marroquín <andres.torres.marroquin@gmail.com>[m
+[31m-    Andrew Brehaut <https://brehaut.net/blog>[m
+[31m-    Andrew Clark <amclark7@gmail.com>[m
+[31m-    Andrew Durdin <adurdin@gmail.com>[m
+[31m-    Andrew Godwin <andrew@aeracode.org>[m
+[31m-    Andrew Pinkham <http://AndrewsForge.com>[m
+[31m-    Andrews Medina <andrewsmedina@gmail.com>[m
+[31m-    Andriy Sokolovskiy <me@asokolovskiy.com>[m
+[31m-    Andy Dustman <farcepest@gmail.com>[m
+[31m-    Andy Gayton <andy-django@thecablelounge.com>[m
+[31m-    andy@jadedplanet.net[m
+[31m-    Anssi Kääriäinen <akaariai@gmail.com>[m
+[31m-    ant9000@netwise.it[m
+[31m-    Anthony Briggs <anthony.briggs@gmail.com>[m
+[31m-    Anton Samarchyan <desecho@gmail.com>[m
+[31m-    Antoni Aloy[m
+[31m-    Antonio Cavedoni <http://cavedoni.com/>[m
+[31m-    Antonis Christofides <anthony@itia.ntua.gr>[m
+[31m-    Antti Haapala <antti@industrialwebandmagic.com>[m
+[31m-    Antti Kaihola <http://djangopeople.net/akaihola/>[m
+[31m-    Anubhav Joshi <anubhav9042@gmail.com>[m
+[31m-    Aram Dulyan[m
+[31m-    arien <regexbot@gmail.com>[m
+[31m-    Armin Ronacher[m
+[31m-    Aron Podrigal <aronp@guaranteedplus.com>[m
+[31m-    Artem Gnilov <boobsd@gmail.com>[m
+[31m-    Arthur <avandorp@gmail.com>[m
+[31m-    Arthur Koziel <http://arthurkoziel.com>[m
+[31m-    Arthur Rio <arthur.rio44@gmail.com>[m
+[31m-    Arvis Bickovskis <viestards.lists@gmail.com>[m
+[31m-    Aryeh Leib Taurog <http://www.aryehleib.com/>[m
+[31m-    A S Alam <aalam@users.sf.net>[m
+[31m-    Asif Saif Uddin <auvipy@gmail.com>[m
+[31m-    atlithorn <atlithorn@gmail.com>[m
+[31m-    Audrey Roy <http://audreymroy.com/>[m
+[31m-    av0000@mail.ru[m
+[31m-    Axel Haustant <noirbizarre@gmail.com>[m
+[31m-    Aymeric Augustin <aymeric.augustin@m4x.org>[m
+[31m-    Bahadır Kandemir <bahadir@pardus.org.tr>[m
+[31m-    Baishampayan Ghose[m
+[31m-    Baptiste Mispelon <bmispelon@gmail.com>[m
+[31m-    Barry Pederson <bp@barryp.org>[m
+[31m-    Bartolome Sanchez Salado <i42sasab@uco.es>[m
+[31m-    Bartosz Grabski <bartosz.grabski@gmail.com>[m
+[31m-    Bashar Al-Abdulhadi[m
+[31m-    Bastian Kleineidam <calvin@debian.org>[m
+[31m-    Batiste Bieler <batiste.bieler@gmail.com>[m
+[31m-    Batman[m
+[31m-    Batuhan Taskaya <batuhanosmantaskaya@gmail.com>[m
+[31m-    Baurzhan Ismagulov <ibr@radix50.net>[m
+[31m-    Ben Dean Kawamura <ben.dean.kawamura@gmail.com>[m
+[31m-    Ben Firshman <ben@firshman.co.uk>[m
+[31m-    Ben Godfrey <http://aftnn.org>[m
+[31m-    Benjamin Wohlwend <piquadrat@gmail.com>[m
+[31m-    Ben Khoo <khoobks@westnet.com.au>[m
+[31m-    Ben Slavin <benjamin.slavin@gmail.com>[m
+[31m-    Ben Sturmfels <ben@sturm.com.au>[m
+[31m-    Berker Peksag <berker.peksag@gmail.com>[m
+[31m-    Bernd Schlapsi[m
+[31m-    Bernhard Essl <me@bernhardessl.com>[m
+[31m-    berto[m
+[31m-    Bill Fenner <fenner@gmail.com>[m
+[31m-    Bjørn Stabell <bjorn@exoweb.net>[m
+[31m-    Bo Marchman <bo.marchman@gmail.com>[m
+[31m-    Bogdan Mateescu[m
+[31m-    Bojan Mihelac <bmihelac@mihelac.org>[m
+[31m-    Bouke Haarsma <bouke@haarsma.eu>[m
+[31m-    Božidar Benko <bbenko@gmail.com>[m
+[31m-    Brad Melin <melinbrad@gmail.com>[m
+[31m-    Brandon Chinn <https://brandonchinn178.github.io/>[m
+[31m-    Brant Harris[m
+[31m-    Brendan Hayward <brendanhayward85@gmail.com>[m
+[31m-    Brendan Quinn <brendan@cluefulmedia.com>[m
+[31m-    Brenton Simpson <http://theillustratedlife.com>[m
+[31m-    Brett Cannon <brett@python.org>[m
+[31m-    Brett Hoerner <bretthoerner@bretthoerner.com>[m
+[31m-    Brian Beck <http://blog.brianbeck.com/>[m
+[31m-    Brian Fabian Crain <http://www.bfc.do/>[m
+[31m-    Brian Harring <ferringb@gmail.com>[m
+[31m-    Brian Ray <http://brianray.chipy.org/>[m
+[31m-    Brian Rosner <brosner@gmail.com>[m
+[31m-    Bruce Kroeze <https://coderseye.com/>[m
+[31m-    Bruno Alla <alla.brunoo@gmail.com>[m
+[31m-    Bruno Renié <buburno@gmail.com>[m
+[31m-    brut.alll@gmail.com[m
+[31m-    Bryan Chow <bryan at verdjn dot com>[m
+[31m-    Bryan Veloso <bryan@revyver.com>[m
+[31m-    bthomas[m
+[31m-    btoll@bestweb.net[m
+[31m-    C8E[m
+[31m-    Caio Ariede <caio.ariede@gmail.com>[m
+[31m-    Calvin Spealman <ironfroggy@gmail.com>[m
+[31m-    Cameron Curry[m
+[31m-    Cameron Knight (ckknight)[m
+[31m-    Can Burak Çilingir <canburak@cs.bilgi.edu.tr>[m
+[31m-    Can Sarıgöl <ertugrulsarigol@gmail.com>[m
+[31m-    Carl Meyer <carl@oddbird.net>[m
+[31m-    Carles Pina i Estany <carles@pina.cat>[m
+[31m-    Carlos Eduardo de Paula <carlosedp@gmail.com>[m
+[31m-    Carlos Matías de la Torre <cmdelatorre@gmail.com>[m
+[31m-    Carlton Gibson <carlton.gibson@noumenal.es>[m
+[31m-    cedric@terramater.net[m
+[31m-    Chad Whitman <chad.whitman@icloud.com>[m
+[31m-    ChaosKCW[m
+[31m-    Charlie Leifer <coleifer@gmail.com>[m
+[31m-    charly.wilhelm@gmail.com[m
+[31m-    Chason Chaffin <chason@gmail.com>[m
+[31m-    Cheng Zhang[m
+[31m-    Chris Adams[m
+[31m-    Chris Beaven <smileychris@gmail.com>[m
+[31m-    Chris Bennett <chrisrbennett@yahoo.com>[m
+[31m-    Chris Cahoon <chris.cahoon@gmail.com>[m
+[31m-    Chris Chamberlin <dja@cdc.msbx.net>[m
+[31m-    Chris Jerdonek[m
+[31m-    Chris Jones <chris@brack3t.com>[m
+[31m-    Chris Lamb <chris@chris-lamb.co.uk>[m
+[31m-    Chris Streeter <chris@chrisstreeter.com>[m
+[31m-    Christian Barcenas <christian@cbarcenas.com>[m
+[31m-    Christian Metts[m
+[31m-    Christian Oudard <christian.oudard@gmail.com>[m
+[31m-    Christian Tanzer <tanzer@swing.co.at>[m
+[31m-    Christoffer Sjöbergsson[m
+[31m-    Christophe Pettus <xof@thebuild.com>[m
+[31m-    Christopher Adams <http://christopheradams.info>[m
+[31m-    Christopher Babiak <chrisbabiak@gmail.com>[m
+[31m-    Christopher Lenz <https://www.cmlenz.net/>[m
+[31m-    Christoph Mędrela <chris.medrela@gmail.com>[m
+[31m-    Chris Wagner <cw264701@ohio.edu>[m
+[31m-    Chris Wesseling <Chris.Wesseling@cwi.nl>[m
+[31m-    Chris Wilson <chris+github@qwirx.com>[m
+[31m-    Claude Paroz <claude@2xlibre.net>[m
+[31m-    Clint Ecker[m
+[31m-    colin@owlfish.com[m
+[31m-    Colin Wood <cwood06@gmail.com>[m
+[31m-    Collin Anderson <cmawebsite@gmail.com>[m
+[31m-    Collin Grady <collin@collingrady.com>[m
+[31m-    Colton Hicks <coltonbhicks@gmail.com>[m
+[31m-    Craig Blaszczyk <masterjakul@gmail.com>[m
+[31m-    crankycoder@gmail.com[m
+[31m-    Curtis Maloney (FunkyBob) <curtis@tinbrain.net>[m
+[31m-    dackze+django@gmail.com[m
+[31m-    Dagur Páll Ammendrup <dagurp@gmail.com>[m
+[31m-    Dane Springmeyer[m
+[31m-    Dan Fairs <dan@fezconsulting.com>[m
+[31m-    Daniel Alves Barbosa de Oliveira Vaz <danielvaz@gmail.com>[m
+[31m-    Daniel Duan <DaNmarner@gmail.com>[m
+[31m-    Daniele Procida <daniele@vurt.org>[m
+[31m-    Daniel Greenfeld[m
+[31m-    dAniel hAhler[m
+[31m-    Daniel Jilg <daniel@breakthesystem.org>[m
+[31m-    Daniel Lindsley <daniel@toastdriven.com>[m
+[31m-    Daniel Poelzleithner <https://poelzi.org/>[m
+[31m-    Daniel Pyrathon <pirosb3@gmail.com>[m
+[31m-    Daniel Roseman <http://roseman.org.uk/>[m
+[31m-    Daniel Tao <https://philosopherdeveloper.com/>[m
+[31m-    Daniel Wiesmann <daniel.wiesmann@gmail.com>[m
+[31m-    Danilo Bargen[m
+[31m-    Dan Johnson <danj.py@gmail.com>[m
+[31m-    Dan Palmer <dan@danpalmer.me>[m
+[31m-    Dan Poirier <poirier@pobox.com>[m
+[31m-    Dan Stephenson <http://dan.io/>[m
+[31m-    Dan Watson <http://danwatson.net/>[m
+[31m-    dave@thebarproject.com[m
+[31m-    David Ascher <https://ascher.ca/>[m
+[31m-    David Avsajanishvili <avsd05@gmail.com>[m
+[31m-    David Blewett <david@dawninglight.net>[m
+[31m-    David Brenneman <http://davidbrenneman.com>[m
+[31m-    David Cramer <dcramer@gmail.com>[m
+[31m-    David Danier <david.danier@team23.de>[m
+[31m-    David Eklund[m
+[31m-    David Foster <david@dafoster.net>[m
+[31m-    David Gouldin <dgouldin@gmail.com>[m
+[31m-    david@kazserve.org[m
+[31m-    David Krauth[m
+[31m-    David Larlet <https://larlet.fr/david/>[m
+[31m-    David Reynolds <david@reynoldsfamily.org.uk>[m
+[31m-    David Sanders <dsanders11@ucsbalum.com>[m
+[31m-    David Schein[m
+[31m-    David Tulig <david.tulig@gmail.com>[m
+[31m-    David Wobrock <david.wobrock@gmail.com>[m
+[31m-    Davide Ceretti <dav.ceretti@gmail.com>[m
+[31m-    Deep L. Sukhwani <deepsukhwani@gmail.com>[m
+[31m-    Deepak Thukral <deep.thukral@gmail.com>[m
+[31m-    Denis Kuzmichyov <kuzmichyov@gmail.com>[m
+[31m-    Dennis Schwertel <dennisschwertel@gmail.com>[m
+[31m-    Derek Willis <http://blog.thescoop.org/>[m
+[31m-    Deric Crago <deric.crago@gmail.com>[m
+[31m-    deric@monowerks.com[m
+[31m-    Deryck Hodge <http://www.devurandom.org/>[m
+[31m-    Dimitris Glezos <dimitris@glezos.com>[m
+[31m-    Dirk Datzert <dummy@habmalnefrage.de>[m
+[31m-    Dirk Eschler <dirk.eschler@gmx.net>[m
+[31m-    Dmitri Fedortchenko <zeraien@gmail.com>[m
+[31m-    Dmitry Jemerov <intelliyole@gmail.com>[m
+[31m-    dne@mayonnaise.net[m
+[31m-    Dolan Antenucci <antenucci.d@gmail.com>[m
+[31m-    Donald Harvey <donald@donaldharvey.co.uk>[m
+[31m-    Donald Stufft <donald@stufft.io>[m
+[31m-    Don Spaulding <donspauldingii@gmail.com>[m
+[31m-    Doug Beck <doug@douglasbeck.com>[m
+[31m-    Doug Napoleone <doug@dougma.com>[m
+[31m-    dready <wil@mojipage.com>[m
+[31m-    dusk@woofle.net[m
+[31m-    Dustyn Gibson <miigotu@gmail.com>[m
+[31m-    Ed Morley <https://github.com/edmorley>[m
+[31m-    eibaan@gmail.com[m
+[31m-    elky <http://elky.me/>[m
+[31m-    Emmanuelle Delescolle <https://github.com/nanuxbe>[m
+[31m-    Emil Stenström <em@kth.se>[m
+[31m-    enlight[m
+[31m-    Enrico <rico.bl@gmail.com>[m
+[31m-    Eric Boersma <eric.boersma@gmail.com>[m
+[31m-    Eric Brandwein <brandweineric@gmail.com>[m
+[31m-    Eric Floehr <eric@intellovations.com>[m
+[31m-    Eric Florenzano <floguy@gmail.com>[m
+[31m-    Eric Holscher <http://ericholscher.com>[m
+[31m-    Eric Moritz <http://eric.themoritzfamily.com/>[m
+[31m-    Eric Palakovich Carr <carreric@gmail.com>[m
+[31m-    Erik Karulf <erik@karulf.com>[m
+[31m-    Erik Romijn <django@solidlinks.nl>[m
+[31m-    eriks@win.tue.nl[m
+[31m-    Erwin Junge <erwin@junge.nl>[m
+[31m-    Esdras Beleza <linux@esdrasbeleza.com>[m
+[31m-    Espen Grindhaug <http://grindhaug.org/>[m
+[31m-    Eugene Lazutkin <http://lazutkin.com/blog/>[m
+[31m-    Evan Grim <https://github.com/egrim>[m
+[31m-    Fabrice Aneche <akh@nobugware.com>[m
+[31m-    Farhaan Bukhsh <farhaan.bukhsh@gmail.com>[m
+[31m-    favo@exoweb.net[m
+[31m-    fdr <drfarina@gmail.com>[m
+[31m-    Federico Capoano <nemesis@ninux.org>[m
+[31m-    Felipe Lee <felipe.lee.garcia@gmail.com>[m
+[31m-    Filip Noetzel <http://filip.noetzel.co.uk/>[m
+[31m-    Filip Wasilewski <filip.wasilewski@gmail.com>[m
+[31m-    Finn Gruwier Larsen <finn@gruwier.dk>[m
+[31m-    Flávio Juvenal da Silva Junior <flavio@vinta.com.br>[m
+[31m-    flavio.curella@gmail.com[m
+[31m-    Florian Apolloner <florian@apolloner.eu>[m
+[31m-    Florian Moussous <florian.moussous@gmail.com>[m
+[31m-    Fran Hrženjak <fran.hrzenjak@gmail.com>[m
+[31m-    Francisco Albarran Cristobal <pahko.xd@gmail.com>[m
+[31m-    Francisco Couzo <franciscouzo@gmail.com>[m
+[31m-    François Freitag <mail@franek.fr>[m
+[31m-    Frank Tegtmeyer <fte@fte.to>[m
+[31m-    Frank Wierzbicki[m
+[31m-    Frank Wiles <frank@revsys.com>[m
+[31m-    František Malina <fmalina@gmail.com>[m
+[31m-    Fraser Nevett <mail@nevett.org>[m
+[31m-    Gabriel Grant <g@briel.ca>[m
+[31m-    Gabriel Hurley <gabriel@strikeawe.com>[m
+[31m-    gandalf@owca.info[m
+[31m-    Garry Lawrence[m
+[31m-    Garry Polley <garrympolley@gmail.com>[m
+[31m-    Garth Kidd <http://www.deadlybloodyserious.com/>[m
+[31m-    Gary Wilson <gary.wilson@gmail.com>[m
+[31m-    Gasper Koren[m
+[31m-    Gasper Zejn <zejn@kiberpipa.org>[m
+[31m-    Gavin Wahl <gavinwahl@gmail.com>[m
+[31m-    Ge Hanbin <xiaomiba0904@gmail.com>[m
+[31m-    geber@datacollect.com[m
+[31m-    Geert Vanderkelen[m
+[31m-    George Karpenkov <george@metaworld.ru>[m
+[31m-    George Song <george@damacy.net>[m
+[31m-    George Vilches <gav@thataddress.com>[m
+[31m-    Georg "Hugo" Bauer <gb@hugo.westfalen.de>[m
+[31m-    Georgi Stanojevski <glisha@gmail.com>[m
+[31m-    Gerardo Orozco <gerardo.orozco.mosqueda@gmail.com>[m
+[31m-    Gil Gonçalves <lursty@gmail.com>[m
+[31m-    Girish Kumar <girishkumarkh@gmail.com>[m
+[31m-    Gisle Aas <gisle@aas.no>[m
+[31m-    Glenn Maynard <glenn@zewt.org>[m
+[31m-    glin@seznam.cz[m
+[31m-    GomoX <gomo@datafull.com>[m
+[31m-    Gonzalo Saavedra <gonzalosaavedra@gmail.com>[m
+[31m-    Gopal Narayanan <gopastro@gmail.com>[m
+[31m-    Graham Carlyle <graham.carlyle@maplecroft.net>[m
+[31m-    Grant Jenks <contact@grantjenks.com>[m
+[31m-    Greg Chapple <gregchapple1@gmail.com>[m
+[31m-    Gregor Allensworth <greg.allensworth@gmail.com>[m
+[31m-    Gregor Müllegger <gregor@muellegger.de>[m
+[31m-    Grigory Fateyev <greg@dial.com.ru>[m
+[31m-    Grzegorz Ślusarek <grzegorz.slusarek@gmail.com>[m
+[31m-    Guilherme Mesquita Gondim <semente@taurinus.org>[m
+[31m-    Guillaume Pannatier <guillaume.pannatier@gmail.com>[m
+[31m-    Gustavo Picon[m
+[31m-    hambaloney[m
+[31m-    Hang Park <hangpark@kaist.ac.kr>[m
+[31m-    Hannes Ljungberg <hannes.ljungberg@gmail.com>[m
+[31m-    Hannes Struß <x@hannesstruss.de>[m
+[31m-    Hasan Ramezani <hasan.r67@gmail.com>[m
+[31m-    Hawkeye[m
+[31m-    Helen Sherwood-Taylor <helen@rrdlabs.co.uk>[m
+[31m-    Henrique Romano <onaiort@gmail.com>[m
+[31m-    Henry Dang <henrydangprg@gmail.com>[m
+[31m-    Hidde Bultsma[m
+[31m-    Himanshu Chauhan <hchauhan1404@outlook.com>[m
+[31m-    hipertracker@gmail.com[m
+[31m-    Hiroki Kiyohara <hirokiky@gmail.com>[m
+[31m-    Honza Král <honza.kral@gmail.com>[m
+[31m-    Horst Gutmann <zerok@zerokspot.com>[m
+[31m-    Hugo Osvaldo Barrera <hugo@barrera.io>[m
+[31m-    HyukJin Jang <wkdgurwls00@naver.com>[m
+[31m-    Hyun Mi Ae[m
+[31m-    Iacopo Spalletti <i.spalletti@nephila.it>[m
+[31m-    Ian A Wilson <http://ianawilson.com>[m
+[31m-    Ian Clelland <clelland@gmail.com>[m
+[31m-    Ian G. Kelly <ian.g.kelly@gmail.com>[m
+[31m-    Ian Holsman <http://feh.holsman.net/>[m
+[31m-    Ian Lee <IanLee1521@gmail.com>[m
+[31m-    Ibon <ibonso@gmail.com>[m
+[31m-    Idan Gazit <idan@gazit.me>[m
+[31m-    Idan Melamed[m
+[31m-    Ifedapo Olarewaju <ifedapoolarewaju@gmail.com>[m
+[31m-    Igor Kolar <ike@email.si>[m
+[31m-    Illia Volochii <illia.volochii@gmail.com>[m
+[31m-    Ilya Semenov <semenov@inetss.com>[m
+[31m-    Ingo Klöcker <djangoproject@ingo-kloecker.de>[m
+[31m-    I.S. van Oostveen <v.oostveen@idca.nl>[m
+[31m-    ivan.chelubeev@gmail.com[m
+[31m-    Ivan Sagalaev (Maniac) <http://www.softwaremaniacs.org/>[m
+[31m-    Jaap Roes <jaap.roes@gmail.com>[m
+[31m-    Jack Moffitt <https://metajack.im/>[m
+[31m-    Jacob Burch <jacobburch@gmail.com>[m
+[31m-    Jacob Green[m
+[31m-    Jacob Kaplan-Moss <jacob@jacobian.org>[m
+[31m-    Jakub Paczkowski <jakub@paczkowski.eu>[m
+[31m-    Jakub Wilk <jwilk@jwilk.net>[m
+[31m-    Jakub Wiśniowski <restless.being@gmail.com>[m
+[31m-    james_027@yahoo.com[m
+[31m-    James Aylett[m
+[31m-    James Bennett <james@b-list.org>[m
+[31m-    James Murty[m
+[31m-    James Tauber <jtauber@jtauber.com>[m
+[31m-    James Timmins <jameshtimmins@gmail.com>[m
+[31m-    James Turk <dev@jamesturk.net>[m
+[31m-    James Wheare <django@sparemint.com>[m
+[31m-    Jannis Leidel <jannis@leidel.info>[m
+[31m-    Janos Guljas[m
+[31m-    Jan Pazdziora[m
+[31m-    Jan Rademaker[m
+[31m-    Jarek Głowacki <jarekwg@gmail.com>[m
+[31m-    Jarek Zgoda <jarek.zgoda@gmail.com>[m
+[31m-    Jason Davies (Esaj) <https://www.jasondavies.com/>[m
+[31m-    Jason Huggins <http://www.jrandolph.com/blog/>[m
+[31m-    Jason McBrayer <http://www.carcosa.net/jason/>[m
+[31m-    jason.sidabras@gmail.com[m
+[31m-    Jason Yan <tailofthesun@gmail.com>[m
+[31m-    Javier Mansilla <javimansilla@gmail.com>[m
+[31m-    Jay Parlar <parlar@gmail.com>[m
+[31m-    Jay Welborn <jesse.welborn@gmail.com>[m
+[31m-    Jay Wineinger <jay.wineinger@gmail.com>[m
+[31m-    J. Clifford Dyer <jcd@sdf.lonestar.org>[m
+[31m-    jcrasta@gmail.com[m
+[31m-    jdetaeye[m
+[31m-    Jeff Anderson <jefferya@programmerq.net>[m
+[31m-    Jeff Balogh <jbalogh@mozilla.com>[m
+[31m-    Jeff Hui <jeffkhui@gmail.com>[m
+[31m-    Jeffrey Gelens <jeffrey@gelens.org>[m
+[31m-    Jeff Triplett <jeff.triplett@gmail.com>[m
+[31m-    Jeffrey Yancey <jeffrey.yancey@gmail.com>[m
+[31m-    Jens Diemer <django@htfx.de>[m
+[31m-    Jens Page[m
+[31m-    Jensen Cochran <jensen.cochran@gmail.com>[m
+[31m-    Jeong-Min Lee <falsetru@gmail.com>[m
+[31m-    Jérémie Blaser <blaserje@gmail.com>[m
+[31m-    Jeremy Bowman <https://github.com/jmbowman>[m
+[31m-    Jeremy Carbaugh <jcarbaugh@gmail.com>[m
+[31m-    Jeremy Dunck <jdunck@gmail.com>[m
+[31m-    Jeremy Lainé <jeremy.laine@m4x.org>[m
+[31m-    Jesse Young <adunar@gmail.com>[m
+[31m-    Jezeniel Zapanta <jezeniel.zapanta@gmail.com>[m
+[31m-    jhenry <jhenry@theonion.com>[m
+[31m-    Jim Dalton <jim.dalton@gmail.com>[m
+[31m-    Jimmy Song <jaejoon@gmail.com>[m
+[31m-    Jiri Barton[m
+[31m-    Joachim Jablon <ewjoachim@gmail.com>[m
+[31m-    Joao Oliveira <joaoxsouls@gmail.com>[m
+[31m-    Joao Pedro Silva <j.pedro004@gmail.com>[m
+[31m-    Joe Heck <http://www.rhonabwy.com/wp/>[m
+[31m-    Joel Bohman <mail@jbohman.com>[m
+[31m-    Joel Heenan <joelh-django@planetjoel.com>[m
+[31m-    Joel Watts <joel@joelwatts.com>[m
+[31m-    Joe Topjian <http://joe.terrarum.net/geek/code/python/django/>[m
+[31m-    Johan C. Stöver <johan@nilling.nl>[m
+[31m-    Johann Queuniet <johann.queuniet@adh.naellia.eu>[m
+[31m-    john@calixto.net[m
+[31m-    John D'Agostino <john.dagostino@gmail.com>[m
+[31m-    John D'Ambrosio <dambrosioj@gmail.com>[m
+[31m-    John Huddleston <huddlej@wwu.edu>[m
+[31m-    John Moses <moses.john.r@gmail.com>[m
+[31m-    John Paulett <john@paulett.org>[m
+[31m-    John Shaffer <jshaffer2112@gmail.com>[m
+[31m-    Jökull Sólberg Auðunsson <jokullsolberg@gmail.com>[m
+[31m-    Jon Dufresne <jon.dufresne@gmail.com>[m
+[31m-    Jonas Haag <jonas@lophus.org>[m
+[31m-    Jonatas C. D. <jonatas.cd@gmail.com>[m
+[31m-    Jonathan Buchanan <jonathan.buchanan@gmail.com>[m
+[31m-    Jonathan Daugherty (cygnus) <http://www.cprogrammer.org/>[m
+[31m-    Jonathan Feignberg <jdf@pobox.com>[m
+[31m-    Jonathan Slenders[m
+[31m-    Jordan Dimov <s3x3y1@gmail.com>[m
+[31m-    Jordi J. Tablada <jordi.joan@gmail.com>[m
+[31m-    Jorge Bastida <me@jorgebastida.com>[m
+[31m-    Jorge Gajon <gajon@gajon.org>[m
+[31m-    José Tomás Tocino García <josetomas.tocino@gmail.com>[m
+[31m-    Josef Rousek <josef.rousek@gmail.com>[m
+[31m-    Joseph Kocherhans <joseph@jkocherhans.com>[m
+[31m-    Josh Smeaton <josh.smeaton@gmail.com>[m
+[31m-    Joshua Cannon <joshdcannon@gmail.com>[m
+[31m-    Joshua Ginsberg <jag@flowtheory.net>[m
+[31m-    Jozko Skrablin <jozko.skrablin@gmail.com>[m
+[31m-    J. Pablo Fernandez <pupeno@pupeno.com>[m
+[31m-    jpellerin@gmail.com[m
+[31m-    Juan Catalano <catalanojuan@gmail.com>[m
+[31m-    Juan Manuel Caicedo <juan.manuel.caicedo@gmail.com>[m
+[31m-    Juan Pedro Fisanotti <fisadev@gmail.com>[m
+[31m-    Julia Elman[m
+[31m-    Julia Matsieva <julia.matsieva@gmail.com>[m
+[31m-    Julian Bez[m
+[31m-    Julien Phalip <jphalip@gmail.com>[m
+[31m-    Junyoung Choi <cupjoo@gmail.com>[m
+[31m-    junzhang.jn@gmail.com[m
+[31m-    Jure Cuhalev <gandalf@owca.info>[m
+[31m-    Justin Bronn <jbronn@gmail.com>[m
+[31m-    Justine Tunney <jtunney@gmail.com>[m
+[31m-    Justin Lilly <justinlilly@gmail.com>[m
+[31m-    Justin Michalicek <jmichalicek@gmail.com>[m
+[31m-    Justin Myles Holmes <justin@slashrootcafe.com>[m
+[31m-    Jyrki Pulliainen <jyrki.pulliainen@gmail.com>[m
+[31m-    Kadesarin Sanjek[m
+[31m-    Karderio <karderio@gmail.com>[m
+[31m-    Karen Tracey <kmtracey@gmail.com>[m
+[31m-    Karol Sikora <elektrrrus@gmail.com>[m
+[31m-    Katherine “Kati” Michel <kthrnmichel@gmail.com>[m
+[31m-    Kathryn Killebrew <kathryn.killebrew@gmail.com>[m
+[31m-    Katie Miller <katie@sub50.com>[m
+[31m-    Keith Bussell <kbussell@gmail.com>[m
+[31m-    Kenneth Love <kennethlove@gmail.com>[m
+[31m-    Kent Hauser <kent@khauser.net>[m
+[31m-    Kevin Grinberg <kevin@kevingrinberg.com>[m
+[31m-    Kevin Kubasik <kevin@kubasik.net>[m
+[31m-    Kevin McConnell <kevin.mcconnell@gmail.com>[m
+[31m-    Kieran Holland <http://www.kieranholland.com>[m
+[31m-    kilian <kilian.cavalotti@lip6.fr>[m
+[31m-    Kim Joon Hwan 김준환 <xncbf12@gmail.com>[m
+[31m-    Klaas van Schelven <klaas@vanschelven.com>[m
+[31m-    knox <christobzr@gmail.com>[m
+[31m-    konrad@gwu.edu[m
+[31m-    Kowito Charoenratchatabhan <kowito@felspar.com>[m
+[31m-    Krišjānis Vaiders <krisjanisvaiders@gmail.com>[m
+[31m-    krzysiek.pawlik@silvermedia.pl[m
+[31m-    Krzysztof Jurewicz <krzysztof.jurewicz@gmail.com>[m
+[31m-    Krzysztof Kulewski <kulewski@gmail.com>[m
+[31m-    kurtiss@meetro.com[m
+[31m-    Lakin Wecker <lakin@structuredabstraction.com>[m
+[31m-    Lars Yencken <lars.yencken@gmail.com>[m
+[31m-    Lau Bech Lauritzen[m
+[31m-    Laurent Luce <https://www.laurentluce.com/>[m
+[31m-    Laurent Rahuel <laurent.rahuel@gmail.com>[m
+[31m-    lcordier@point45.com[m
+[31m-    Leah Culver <leah.culver@gmail.com>[m
+[31m-    Leandra Finger <leandra.finger@gmail.com>[m
+[31m-    Lee Reilly <lee@leereilly.net>[m
+[31m-    Lee Sanghyuck <shlee322@elab.kr>[m
+[31m-    Leo "hylje" Honkanen <sealage@gmail.com>[m
+[31m-    Leo Shklovskii[m
+[31m-    Leo Soto <leo.soto@gmail.com>[m
+[31m-    lerouxb@gmail.com[m
+[31m-    Lex Berezhny <lex@damoti.com>[m
+[31m-    Liang Feng <hutuworm@gmail.com>[m
+[31m-    limodou[m
+[31m-    Lincoln Smith <lincoln.smith@anu.edu.au>[m
+[31m-    Liu Yijie <007gzs@gmail.com>[m
+[31m-    Loek van Gent <loek@barakken.nl>[m
+[31m-    Loïc Bistuer <loic.bistuer@sixmedia.com>[m
+[31m-    Lowe Thiderman <lowe.thiderman@gmail.com>[m
+[31m-    Luan Pablo <luanpab@gmail.com>[m
+[31m-    Lucas Connors <https://www.revolutiontech.ca/>[m
+[31m-    Luciano Ramalho[m
+[31m-    Ludvig Ericson <ludvig.ericson@gmail.com>[m
+[31m-    Luis C. Berrocal <luis.berrocal.1942@gmail.com>[m
+[31m-    Łukasz Langa <lukasz@langa.pl>[m
+[31m-    Łukasz Rekucki <lrekucki@gmail.com>[m
+[31m-    Luke Granger-Brown <django@lukegb.com>[m
+[31m-    Luke Plant <L.Plant.98@cantab.net>[m
+[31m-    Maciej Fijalkowski[m
+[31m-    Maciej Wiśniowski <pigletto@gmail.com>[m
+[31m-    Mads Jensen <https://github.com/atombrella>[m
+[31m-    Makoto Tsuyuki <mtsuyuki@gmail.com>[m
+[31m-    Malcolm Tredinnick[m
+[31m-    Manuel Saelices <msaelices@yaco.es>[m
+[31m-    Manuzhai[m
+[31m-    Marc Aymerich Gubern[m
+[31m-    Marc Egli <frog32@me.com>[m
+[31m-    Marcel Telka <marcel@telka.sk>[m
+[31m-    Marc Fargas <telenieko@telenieko.com>[m
+[31m-    Marc Garcia <marc.garcia@accopensys.com>[m
+[31m-    Marcin Wróbel[m
+[31m-    Marc Remolt <m.remolt@webmasters.de>[m
+[31m-    Marc Tamlyn <marc.tamlyn@gmail.com>[m
+[31m-    Marc-Aurèle Brothier <ma.brothier@gmail.com>[m
+[31m-    Marian Andre <django@andre.sk>[m
+[31m-    Marijn Vriens <marijn@metronomo.cl>[m
+[31m-    Mario Gonzalez <gonzalemario@gmail.com>[m
+[31m-    Mariusz Felisiak <felisiak.mariusz@gmail.com>[m
+[31m-    Mark Biggers <biggers@utsl.com>[m
+[31m-    Mark Gensler <mark.gensler@protonmail.com>[m
+[31m-    mark@junklight.com[m
+[31m-    Mark Lavin <markdlavin@gmail.com>[m
+[31m-    Mark Sandstrom <mark@deliciouslynerdy.com>[m
+[31m-    Markus Amalthea Magnuson <markus.magnuson@gmail.com>[m
+[31m-    Markus Holtermann <https://markusholtermann.eu>[m
+[31m-    Marten Kenbeek <marten.knbk+django@gmail.com>[m
+[31m-    Marti Raudsepp <marti@juffo.org>[m
+[31m-    martin.glueck@gmail.com[m
+[31m-    Martin Green[m
+[31m-    Martin Kosír <martin@martinkosir.net>[m
+[31m-    Martin Mahner <https://www.mahner.org/>[m
+[31m-    Martin Maney <http://www.chipy.org/Martin_Maney>[m
+[31m-    Martin von Gagern <gagern@google.com>[m
+[31m-    Mart Sõmermaa <http://mrts.pri.ee/>[m
+[31m-    Marty Alchin <gulopine@gamemusic.org>[m
+[31m-    Masashi Shibata <m.shibata1020@gmail.com>[m
+[31m-    masonsimon+django@gmail.com[m
+[31m-    Massimiliano Ravelli <massimiliano.ravelli@gmail.com>[m
+[31m-    Massimo Scamarcia <massimo.scamarcia@gmail.com>[m
+[31m-    Mathieu Agopian <mathieu.agopian@gmail.com>[m
+[31m-    Matías Bordese[m
+[31m-    Matt Boersma <matt@sprout.org>[m
+[31m-    Matt Croydon <http://www.postneo.com/>[m
+[31m-    Matt Deacalion Stevens <matt@dirtymonkey.co.uk>[m
+[31m-    Matt Dennenbaum[m
+[31m-    Matthew Flanagan <https://wadofstuff.blogspot.com/>[m
+[31m-    Matthew Schinckel <matt@schinckel.net>[m
+[31m-    Matthew Somerville <matthew-django@dracos.co.uk>[m
+[31m-    Matthew Tretter <m@tthewwithanm.com>[m
+[31m-    Matthew Wilkes <matt@matthewwilkes.name>[m
+[31m-    Matthias Kestenholz <mk@406.ch>[m
+[31m-    Matthias Pronk <django@masida.nl>[m
+[31m-    Matt Hoskins <skaffenuk@googlemail.com>[m
+[31m-    Matt McClanahan <https://mmcc.cx/>[m
+[31m-    Matt Riggott[m
+[31m-    Matt Robenolt <m@robenolt.com>[m
+[31m-    Mattia Larentis <mattia@laretis.eu>[m
+[31m-    Mattia Procopio <promat85@gmail.com>[m
+[31m-    Mattias Loverot <mattias@stubin.se>[m
+[31m-    mattycakes@gmail.com[m
+[31m-    Max Burstein <http://maxburstein.com>[m
+[31m-    Max Derkachev <mderk@yandex.ru>[m
+[31m-    Maxime Lorant <maxime.lorant@gmail.com>[m
+[31m-    Maxime Turcotte <maxocub@riseup.net>[m
+[31m-    Maximilian Merz <django@mxmerz.de>[m
+[31m-    Maximillian Dornseif <md@hudora.de>[m
+[31m-    mccutchen@gmail.com[m
+[31m-    Meir Kriheli <http://mksoft.co.il/>[m
+[31m-    Michael S. Brown <michael@msbrown.net>[m
+[31m-    Michael Hall <mhall1@ualberta.ca>[m
+[31m-    Michael Josephson <http://www.sdjournal.com/>[m
+[31m-    Michael Manfre <mmanfre@gmail.com>[m
+[31m-    michael.mcewan@gmail.com[m
+[31m-    Michael Placentra II <someone@michaelplacentra2.net>[m
+[31m-    Michael Radziej <mir@noris.de>[m
+[31m-    Michael Sanders <m.r.sanders@gmail.com>[m
+[31m-    Michael Schwarz <michi.schwarz@gmail.com>[m
+[31m-    Michael Sinov <sihaelov@gmail.com>[m
+[31m-    Michael Thornhill <michael.thornhill@gmail.com>[m
+[31m-    Michal Chruszcz <troll@pld-linux.org>[m
+[31m-    michal@plovarna.cz[m
+[31m-    Michał Modzelewski <michal.modzelewski@gmail.com>[m
+[31m-    Mihai Damian <yang_damian@yahoo.com>[m
+[31m-    Mihai Preda <mihai_preda@yahoo.com>[m
+[31m-    Mikaël Barbero <mikael.barbero nospam at nospam free.fr>[m
+[31m-    Mike Axiak <axiak@mit.edu>[m
+[31m-    Mike Grouchy <https://mikegrouchy.com/>[m
+[31m-    Mike Malone <mjmalone@gmail.com>[m
+[31m-    Mike Richardson[m
+[31m-    Mike Wiacek <mjwiacek@google.com>[m
+[31m-    Mikhail Korobov <kmike84@googlemail.com>[m
+[31m-    Mikko Hellsing <mikko@sorl.net>[m
+[31m-    Mikołaj Siedlarek <mikolaj.siedlarek@gmail.com>[m
+[31m-    milkomeda[m
+[31m-    Milton Waddams[m
+[31m-    mitakummaa@gmail.com[m
+[31m-    mmarshall[m
+[31m-    Moayad Mardini <moayad.m@gmail.com>[m
+[31m-    Morgan Aubert <morgan.aubert@zoho.com>[m
+[31m-    Moritz Sichert <moritz.sichert@googlemail.com>[m
+[31m-    Morten Bagai <m@bagai.com>[m
+[31m-    msaelices <msaelices@gmail.com>[m
+[31m-    msundstr[m
+[31m-    Mushtaq Ali <mushtaak@gmail.com>[m
+[31m-    Mykola Zamkovoi <nickzam@gmail.com>[m
+[31m-    Nadège Michel <michel.nadege@gmail.com>[m
+[31m-    Nagy Károly <charlie@rendszergazda.com>[m
+[31m-    Nasimul Haque <nasim.haque@gmail.com>[m
+[31m-    Nasir Hussain <nasirhjafri@gmail.com>[m
+[31m-    Natalia Bidart <nataliabidart@gmail.com>[m
+[31m-    Nate Bragg <jonathan.bragg@alum.rpi.edu>[m
+[31m-    Nathan Gaberel <nathan@gnab.fr>[m
+[31m-    Neal Norwitz <nnorwitz@google.com>[m
+[31m-    Nebojša Dorđević[m
+[31m-    Ned Batchelder <https://nedbatchelder.com/>[m
+[31m-    Nena Kojadin <nena@kiberpipa.org>[m
+[31m-    Niall Dalton <niall.dalton12@gmail.com>[m
+[31m-    Niall Kelly <duke.sam.vimes@gmail.com>[m
+[31m-    Nick Efford <nick@efford.org>[m
+[31m-    Nick Lane <nick.lane.au@gmail.com>[m
+[31m-    Nick Pope <nick@nickpope.me.uk>[m
+[31m-    Nick Presta <nick@nickpresta.ca>[m
+[31m-    Nick Sandford <nick.sandford@gmail.com>[m
+[31m-    Nick Sarbicki <nick.a.sarbicki@gmail.com>[m
+[31m-    Niclas Olofsson <n@niclasolofsson.se>[m
+[31m-    Nicola Larosa <nico@teknico.net>[m
+[31m-    Nicolas Lara <nicolaslara@gmail.com>[m
+[31m-    Nicolas Noé <nicolas@niconoe.eu>[m
+[31m-    Niran Babalola <niran@niran.org>[m
+[31m-    Nis Jørgensen <nis@superlativ.dk>[m
+[31m-    Nowell Strite <https://nowell.strite.org/>[m
+[31m-    Nuno Mariz <nmariz@gmail.com>[m
+[31m-    oggie rob <oz.robharvey@gmail.com>[m
+[31m-    oggy <ognjen.maric@gmail.com>[m
+[31m-    Oliver Beattie <oliver@obeattie.com>[m
+[31m-    Oliver Rutherfurd <http://rutherfurd.net/>[m
+[31m-    Olivier Sels <olivier.sels@gmail.com>[m
+[31m-    Olivier Tabone <olivier.tabone@ripplemotion.fr>[m
+[31m-    Orestis Markou <orestis@orestis.gr>[m
+[31m-    Orne Brocaar <http://brocaar.com/>[m
+[31m-    Oscar Ramirez <tuxskar@gmail.com>[m
+[31m-    Ossama M. Khayat <okhayat@yahoo.com>[m
+[31m-    Owen Griffiths[m
+[31m-    Pablo Martín <goinnn@gmail.com>[m
+[31m-    Panos Laganakos <panos.laganakos@gmail.com>[m
+[31m-    Paolo Melchiorre <paolo@melchiorre.org>[m
+[31m-    Pascal Hartig <phartig@rdrei.net>[m
+[31m-    Pascal Varet[m
+[31m-    Patrik Sletmo <patrik.sletmo@gmail.com>[m
+[31m-    Paul Bissex <http://e-scribe.com/>[m
+[31m-    Paul Collier <paul@paul-collier.com>[m
+[31m-    Paul Collins <paul.collins.iii@gmail.com>[m
+[31m-    Paul Donohue <django@PaulSD.com>[m
+[31m-    Paul Lanier <planier@google.com>[m
+[31m-    Paul McLanahan <paul@mclanahan.net>[m
+[31m-    Paul McMillan <Paul@McMillan.ws>[m
+[31m-    Paulo Poiati <paulogpoiati@gmail.com>[m
+[31m-    Paulo Scardine <paulo@scardine.com.br>[m
+[31m-    Paul Smith <blinkylights23@gmail.com>[m
+[31m-    Pavel Kulikov <kulikovpavel@gmail.com>[m
+[31m-    pavithran s <pavithran.s@gmail.com>[m
+[31m-    Pavlo Kapyshin <i@93z.org>[m
+[31m-    permonik@mesias.brnonet.cz[m
+[31m-    Petar Marić <http://www.petarmaric.com/>[m
+[31m-    Pete Crosier <pete.crosier@gmail.com>[m
+[31m-    peter@mymart.com[m
+[31m-    Peter Sheats <sheats@gmail.com>[m
+[31m-    Peter van Kampen[m
+[31m-    Peter Zsoldos <http://zsoldosp.eu>[m
+[31m-    Pete Shinners <pete@shinners.org>[m
+[31m-    Petr Marhoun <petr.marhoun@gmail.com>[m
+[31m-    pgross@thoughtworks.com[m
+[31m-    phaedo <http://phaedo.cx/>[m
+[31m-    phil.h.smith@gmail.com[m
+[31m-    Philip Lindborg <philip.lindborg@gmail.com>[m
+[31m-    Philippe Raoult <philippe.raoult@n2nsoft.com>[m
+[31m-    phil@produxion.net[m
+[31m-    Piotr Jakimiak <piotr.jakimiak@gmail.com>[m
+[31m-    Piotr Lewandowski <piotr.lewandowski@gmail.com>[m
+[31m-    plisk[m
+[31m-    polpak@yahoo.com[m
+[31m-    pradeep.gowda@gmail.com[m
+[31m-    Preston Holmes <preston@ptone.com>[m
+[31m-    Preston Timmons <prestontimmons@gmail.com>[m
+[31m-    Priyansh Saxena <askpriyansh@gmail.com>[m
+[31m-    Przemysław Buczkowski <przemub@przemub.pl>[m
+[31m-    Przemysław Suliga <http://suligap.net>[m
+[31m-    Rachel Tobin <rmtobin@me.com>[m
+[31m-    Rachel Willmer <http://www.willmer.com/kb/>[m
+[31m-    Radek Švarz <https://www.svarz.cz/translate/>[m
+[31m-    Raffaele Salmaso <raffaele@salmaso.org>[m
+[31m-    Rajesh Dhawan <rajesh.dhawan@gmail.com>[m
+[31m-    Ramez Ashraf <ramezashraf@gmail.com>[m
+[31m-    Ramin Farajpour Cami <ramin.blackhat@gmail.com>[m
+[31m-    Ramiro Morales <ramiro@rmorales.net>[m
+[31m-    Ramon Saraiva <ramonsaraiva@gmail.com>[m
+[31m-    Ram Rachum <ram@rachum.com>[m
+[31m-    Randy Barlow <randy@electronsweatshop.com>[m
+[31m-    Raphaël Barrois <raphael.barrois@m4x.org>[m
+[31m-    Raphael Michel <mail@raphaelmichel.de>[m
+[31m-    Raúl Cumplido <raulcumplido@gmail.com>[m
+[31m-    Rebecca Smith <rebkwok@gmail.com>[m
+[31m-    Remco Wendt <remco.wendt@gmail.com>[m
+[31m-    Renaud Parent <renaud.parent@gmail.com>[m
+[31m-    Renbi Yu <averybigant@gmail.com>[m
+[31m-    Reza Mohammadi <reza@zeerak.ir>[m
+[31m-    rhettg@gmail.com[m
+[31m-    Ricardo Javier Cárdenes Medina <ricardo.cardenes@gmail.com>[m
+[31m-    ricardojbarrios@gmail.com[m
+[31m-    Riccardo Di Virgilio[m
+[31m-    Riccardo Magliocchetti <riccardo.magliocchetti@gmail.com>[m
+[31m-    Richard Davies <richard.davies@elastichosts.com>[m
+[31m-    Richard House <Richard.House@i-logue.com>[m
+[31m-    Rick Wagner <rwagner@physics.ucsd.edu>[m
+[31m-    Rigel Di Scala <rigel.discala@propylon.com>[m
+[31m-    Robert Coup[m
+[31m-    Robert Myers <myer0052@gmail.com>[m
+[31m-    Roberto Aguilar <roberto@baremetal.io>[m
+[31m-    Robert Rock Howard <http://djangomojo.com/>[m
+[31m-    Robert Wittams[m
+[31m-    Rob Golding-Day <rob@golding-day.com>[m
+[31m-    Rob Hudson <https://rob.cogit8.org/>[m
+[31m-    Rob Nguyen <tienrobertnguyenn@gmail.com>[m
+[31m-    Robin Munn <http://www.geekforgod.com/>[m
+[31m-    Rodrigo Pinheiro Marques de Araújo <fenrrir@gmail.com>[m
+[31m-    Romain Garrigues <romain.garrigues.cs@gmail.com>[m
+[31m-    Ronny Haryanto <https://ronny.haryan.to/>[m
+[31m-    Ross Poulton <ross@rossp.org>[m
+[31m-    Rozza <ross.lawley@gmail.com>[m
+[31m-    Rudolph Froger <rfroger@estrate.nl>[m
+[31m-    Rudy Mutter[m
+[31m-    Rune Rønde Laursen <runerl@skjoldhoej.dk>[m
+[31m-    Russell Cloran <russell@rucus.net>[m
+[31m-    Russell Keith-Magee <russell@keith-magee.com>[m
+[31m-    Russ Webber[m
+[31m-    Ryan Hall <ryanhall989@gmail.com>[m
+[31m-    ryankanno[m
+[31m-    Ryan Kelly <ryan@rfk.id.au>[m
+[31m-    Ryan Niemeyer <https://profiles.google.com/ryan.niemeyer/about>[m
+[31m-    Ryan Petrello <ryan@ryanpetrello.com>[m
+[31m-    Ryan Rubin <ryanmrubin@gmail.com>[m
+[31m-    Ryno Mathee <rmathee@gmail.com>[m
+[31m-    Sachin Jat <sanch.jat@gmail.com>[m
+[31m-    Sage M. Abdullah <https://github.com/laymonage>[m
+[31m-    Sam Newman <http://www.magpiebrain.com/>[m
+[31m-    Sander Dijkhuis <sander.dijkhuis@gmail.com>[m
+[31m-    Sanket Saurav <sanketsaurav@gmail.com>[m
+[31m-    Sanyam Khurana <sanyam.khurana01@gmail.com>[m
+[31m-    Sarthak Mehrish <sarthakmeh03@gmail.com>[m
+[31m-    schwank@gmail.com[m
+[31m-    Scot Hacker <shacker@birdhouse.org>[m
+[31m-    Scott Barr <scott@divisionbyzero.com.au>[m
+[31m-    Scott Fitsimones <scott@airgara.ge>[m
+[31m-    Scott Pashley <github@scottpashley.co.uk>[m
+[31m-    scott@staplefish.com[m
+[31m-    Sean Brant[m
+[31m-    Sebastian Hillig <sebastian.hillig@gmail.com>[m
+[31m-    Sebastian Spiegel <https://www.tivix.com/>[m
+[31m-    Segyo Myung <myungsekyo@gmail.com>[m
+[31m-    Selwin Ong <selwin@ui.co.id>[m
+[31m-    Sengtha Chay <sengtha@e-khmer.com>[m
+[31m-    Senko Rašić <senko.rasic@dobarkod.hr>[m
+[31m-    serbaut@gmail.com[m
+[31m-    Sergei Maertens <sergeimaertens@gmail.com>[m
+[31m-    Sergey Fedoseev <fedoseev.sergey@gmail.com>[m
+[31m-    Sergey Kolosov <m17.admin@gmail.com>[m
+[31m-    Seth Hill <sethrh@gmail.com>[m
+[31m-    Shai Berger <shai@platonix.com>[m
+[31m-    Shannon -jj Behrens <https://www.jjinux.com/>[m
+[31m-    Shawn Milochik <shawn@milochik.com>[m
+[31m-    Silvan Spross <silvan.spross@gmail.com>[m
+[31m-    Simeon Visser <http://simeonvisser.com>[m
+[31m-    Simon Blanchard[m
+[31m-    Simon Charette <charette.s@gmail.com>[m
+[31m-    Simon Greenhill <dev@simon.net.nz>[m
+[31m-    Simon Litchfield <simon@quo.com.au>[m
+[31m-    Simon Meers <simon@simonmeers.com>[m
+[31m-    Simon Williams[m
+[31m-    Simon Willison <simon@simonwillison.net>[m
+[31m-    Sjoerd Job Postmus[m
+[31m-    Slawek Mikula <slawek dot mikula at gmail dot com>[m
+[31m-    sloonz <simon.lipp@insa-lyon.fr>[m
+[31m-    smurf@smurf.noris.de[m
+[31m-    sopel[m
+[31m-    Srinivas Reddy Thatiparthy <thatiparthysreenivas@gmail.com>[m
+[31m-    Stanislas Guerra <stan@slashdev.me>[m
+[31m-    Stanislaus Madueke[m
+[31m-    Stanislav Karpov <work@stkrp.ru>[m
+[31m-    starrynight <cmorgh@gmail.com>[m
+[31m-    Stefan R. Filipek[m
+[31m-    Stefane Fermgier <sf@fermigier.com>[m
+[31m-    Stefano Rivera <stefano@rivera.za.net>[m
+[31m-    Stéphane Raimbault <stephane.raimbault@gmail.com>[m
+[31m-    Stephan Jaekel <steph@rdev.info>[m
+[31m-    Stephen Burrows <stephen.r.burrows@gmail.com>[m
+[31m-    Steven L. Smith (fvox13) <steven@stevenlsmith.com>[m
+[31m-    Steven Noorbergen (Xaroth) <xaroth+django@xaroth.nl>[m
+[31m-    Stuart Langridge <https://www.kryogenix.org/>[m
+[31m-    Subhav Gautam <subhavgautam@yahoo.co.uk>[m
+[31m-    Sujay S Kumar <sujay.skumar141295@gmail.com>[m
+[31m-    Sune Kirkeby <https://ibofobi.dk/>[m
+[31m-    Sung-Jin Hong <serialx.net@gmail.com>[m
+[31m-    SuperJared[m
+[31m-    Susan Tan <susan.tan.fleckerl@gmail.com>[m
+[31m-    Sutrisno Efendi <kangfend@gmail.com>[m
+[31m-    Swaroop C H <http://www.swaroopch.info>[m
+[31m-    Szilveszter Farkas <szilveszter.farkas@gmail.com>[m
+[31m-    Taavi Teska <taaviteska@gmail.com>[m
+[31m-    Tai Lee <real.human@mrmachine.net>[m
+[31m-    Takashi Matsuo <matsuo.takashi@gmail.com>[m
+[31m-    Tareque Hossain <http://www.codexn.com>[m
+[31m-    Taylor Mitchell <taylor.mitchell@gmail.com>[m
+[31m-    Terry Huang <terryh.tp@gmail.com>[m
+[31m-    thebjorn <bp@datakortet.no>[m
+[31m-    Thejaswi Puthraya <thejaswi.puthraya@gmail.com>[m
+[31m-    Thijs van Dien <thijs@vandien.net>[m
+[31m-    Thom Wiggers[m
+[31m-    Thomas Chaumeny <t.chaumeny@gmail.com>[m
+[31m-    Thomas Güttler <hv@tbz-pariv.de>[m
+[31m-    Thomas Kerpe <thomas@kerpe.net>[m
+[31m-    Thomas Sorrel[m
+[31m-    Thomas Steinacher <http://www.eggdrop.ch/>[m
+[31m-    Thomas Stromberg <tstromberg@google.com>[m
+[31m-    Thomas Tanner <tanner@gmx.net>[m
+[31m-    tibimicu@gmx.net[m
+[31m-    Tim Allen <tim@pyphilly.org>[m
+[
