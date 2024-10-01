@@ -11,10 +11,11 @@ class Student {
 
 
 var stud = Student(name: "HK", age: 40)
-var details = stud
+var details = studEXAMPLE
 
 details.name = "Harsimran"
 details.age = 40
 
 print("student 1: name-\(stud.name) and age-\(stud.age)")
 print("student 2: name-\(details.name) and age-\(details.age)")
+print("DEMO GIT")
